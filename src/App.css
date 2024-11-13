@@ -1,6 +1,7 @@
-.App {
-  text-align: center;
+* {
+  font-family: "Univers", "Helvetica Neue", Helvetica, sans-serif;
 }
+
 
 .App-logo {
   height: 40vmin;
@@ -32,6 +33,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
