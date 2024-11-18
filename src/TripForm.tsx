@@ -194,5 +194,15 @@ const TripForm: React.FC = () => {
 
 }
 
+const Dashboard: React.FC<{
+    time: string; earnings: number
+}> = ({ time, earnings }) => {
+    return (<div>
+        <h3>Dashboard</h3>
+        <p>${earnings.toFixed(2)}</p>
+        <p>Duration: {time}</p>
+    </div>)
+}
+
 
 export default TripForm;
